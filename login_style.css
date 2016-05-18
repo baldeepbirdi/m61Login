@@ -1,12 +1,12 @@
 body, input[text], button { font-family: 'Roboto', sans-serif !important; }
 
 html, body{
-	background-image: url("backgroundBuildings.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
+  background-image: url("backgroundBuildings.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 textarea, input { 
-	outline: none; 
+  outline: none; 
 }
 
 h2 {
@@ -37,17 +37,16 @@ h2 {
     text-align: center;
 }
 
-.align-center {
-    text-align:center;
-}
-
 /*!!!!!!FLOATING LABELS!!!!!!!*/
 
     
 .group{ 
   position:relative; 
-  margin-top: 35px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+   width:80%;
+  display: inline-block;
+
 }
 
 .inputMaterial{
@@ -108,8 +107,11 @@ label          {
 }
 
 /*LOGIN BUTTON ==================================== */
+.loginButton{
+  margin-top:20px;
+}
 #login{
-	width:80%;
+  width:80%;
   background-color: #00bcd4 !important;
   border-radius: 2px !important;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12) !important;
