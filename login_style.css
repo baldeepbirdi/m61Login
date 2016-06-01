@@ -1,10 +1,12 @@
 body, input[text], button { font-family: 'Roboto', sans-serif !important; }
 
-html, body{
+.loginContainer{
+  height:100vh;
   background-image: url("backgroundBuildings.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
+
 textarea, input { 
   outline: none; 
 }
